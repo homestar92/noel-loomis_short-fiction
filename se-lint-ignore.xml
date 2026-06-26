@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="the-mischievous-typesetter.xhtml">
+		<ignore code="y-024">
+			<line>114</line>
+			<reason>The hyphen here is explaining a typographical error involving a literal hyphen.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
