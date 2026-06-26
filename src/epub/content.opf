@@ -17,6 +17,7 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
@@ -29,28 +30,85 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">War stories</dc:subject>
+		<dc:subject id="subject-2">Nuclear warfare -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Inventions</dc:subject>
+		<dc:subject id="subject-4">Parking garages</dc:subject>
+		<dc:subject id="subject-5">Science fiction</dc:subject>
+		<dc:subject id="subject-6">Short stories</dc:subject>
+		<dc:subject id="subject-7">People with disabilities--Fiction</dc:subject>
+		<dc:subject id="subject-8">Man-woman relationships--Fiction</dc:subject>
+		<dc:subject id="subject-9">Human-alien encounters--Fiction</dc:subject>
+		<dc:subject id="subject-10">Space stations--Fiction</dc:subject>
+		<dc:subject id="subject-11">Private investigators--Fiction</dc:subject>
+		<dc:subject id="subject-12">Time travel--Fiction</dc:subject>
+		<dc:subject id="subject-13">Gods--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh85145220</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2008108504</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85067667</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh85098109</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh85118629</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh85121813</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">sh2008109042</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">sh2008107175</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
+		<meta property="term" refines="#subject-9">sh2008105650</meta>
+		<meta property="authority" refines="#subject-10">LCSH</meta>
+		<meta property="term" refines="#subject-10">sh2010114292</meta>
+		<meta property="authority" refines="#subject-11">LCSH</meta>
+		<meta property="term" refines="#subject-11">sh2008108885</meta>
+		<meta property="authority" refines="#subject-12">LCSH</meta>
+		<meta property="term" refines="#subject-12">sh2008112697</meta>
+		<meta property="authority" refines="#subject-13">LCSH</meta>
+		<meta property="term" refines="#subject-13">sh2009125969</meta>
+		<meta property="se:subject">Science Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
+		<dc:description id="description">A collection of short stories by Noel Loomis.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-US</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<!-- Electron Eat Electron -->
+		<dc:source>https://www.gutenberg.org/ebooks/63638</dc:source>
+		<dc:source>https://archive.org/details/Planet_Stories_v03n02_1946-Spring</dc:source>
+		<!-- Parking, Unlimited -->
+		<dc:source>https://www.gutenberg.org/ebooks/70387</dc:source>
+		<dc:source>https://archive.org/details/Future_Science_Fiction_v01n01_1950-05-06</dc:source>
+		<!-- The Bryd -->
+		<dc:source>https://www.gutenberg.org/ebooks/64063</dc:source>
+		<dc:source>https://archive.org/details/Planet_Stories_v04n12_1951-05</dc:source>
+		<!-- Remember the 4th! -->
+		<dc:source>https://www.gutenberg.org/ebooks/70388</dc:source>
+		<dc:source>https://archive.org/details/Future_Science_Fiction_v02n02_1951-07</dc:source>
+		<!-- The Mischievous Typesetter -->
+		<dc:source>https://www.gutenberg.org/ebooks/65861</dc:source>
+		<dc:source>https://archive.org/details/Imagination_v03n04_1952-07_LennyS-cape1736</dc:source>
+		<!-- The Wealth of Echindul -->
+		<dc:source>https://www.gutenberg.org/ebooks/31326</dc:source>
+		<dc:source>https://archive.org/details/Planet_Stories_v05n07_1952-07_ATLPM</dc:source>
+		<!-- You Too Can Be a Millionaire -->
+		<dc:source>https://www.gutenberg.org/ebooks/32907</dc:source>
+		<dc:source>https://archive.org/details/1952-11_IF</dc:source>
+		<!-- Nine Men in Time -->
+		<dc:source>https://www.gutenberg.org/ebooks/33872</dc:source>
+		<dc:source>https://archive.org/details/Science_Fiction_Stories_01_1953</dc:source>
+		<!-- Day’s Work -->
+		<dc:source>https://www.gutenberg.org/ebooks/78935</dc:source>
+		<dc:source>https://archive.org/details/Rocket_Stories_v01n03_1953-09_oak</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/noel-loomis_short-fiction</meta>
 		<dc:creator id="author">Noel Loomis</dc:creator>
 		<meta property="file-as" refines="#author">Loomis, Noel</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Noel Miller Loomis</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Noel_Loomis</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n88140308</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -59,21 +117,24 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
+		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<dc:contributor id="transcriber-3">Sankar Viswanathan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Viswanathan, Sankar</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-4">Tom Trussel</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Trussel, Tom</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders</meta>
+		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdp.net/</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jonathan Erdman</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Erdman, Jonathan</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
